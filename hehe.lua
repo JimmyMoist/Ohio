@@ -17,7 +17,7 @@ local X = Material.Load({
 	Style = 3,
 	SizeX = 400,
 	SizeY = 400,
-	Theme = "Jester"
+	Theme = "Dark"
 })
 
 local main = X.New({
