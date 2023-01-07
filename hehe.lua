@@ -25,39 +25,7 @@ local X = Material.Load({
 	Style = 3,
 	SizeX = 400,
 	SizeY = 400,
-	Theme = "Jester",
-	ColorOverrides = {
-    		MainFrame = Color3.fromRGB(0, 0, 0),
-    		Minimise = Color3.fromRGB(214, 1, 1),
-    		MinimiseAccent = Color3.fromRGB(5, 0, 0),
-    		Maximise = Color3.fromRGB(25,255,0),
-    		MaximiseAccent = Color3.fromRGB(0,255,110),
-    		NavBar = Color3.fromRGB(255, 255, 255),
-    		NavBarAccent = Color3.fromRGB(0, 0, 0),
-    		NavBarInvert = Color3.fromRGB(235,235,235),
-    		TitleBar = Color3.fromRGB(0, 0, 0),
-    		TitleBarAccent = Color3.fromRGB(255, 255, 255),
-    		Overlay = Color3.fromRGB(175,175,175),
-    		Banner = Color3.fromRGB(0, 182, 232),
-    		BannerAccent = Color3.fromRGB(255,255,255),
-    		Content = Color3.fromRGB(82, 82, 82),
-    		Button = Color3.fromRGB(65, 65, 65),
-    		ButtonAccent = Color3.fromRGB(255, 255, 255),
-    		ChipSet = Color3.fromRGB(235,235,235),
-    		ChipSetAccent = Color3.fromRGB(75,75,75),
-    		DataTable = Color3.fromRGB(235,235,235),
-    		DataTableAccent = Color3.fromRGB(75,75,75),
-    		Slider = Color3.fromRGB(65, 65, 65),
-    		SliderAccent = Color3.fromRGB(255, 255, 255),
-    		Toggle = Color3.fromRGB(255, 255, 255),
-    		ToggleAccent = Color3.fromRGB(0, 0, 0),
-    		Dropdown = Color3.fromRGB(75,75,75),
-    		DropdownAccent = Color3.fromRGB(125,125,125),
-    		ColorPicker = Color3.fromRGB(75,75,75),
-    		ColorPickerAccent = Color3.fromRGB(235,235,235),
-    		TextField = Color3.fromRGB(65, 65, 65),
-    		TextFieldAccent = Color3.fromRGB(255,255,255),
-    }
+	Theme = "Jester"
 })
 
 local main = X.New({
@@ -74,42 +42,10 @@ local credits = X.New({
 
 --// CREDITS \\--
 credits.Button({
-    Text = "made by m1ke & lofi",
-    Callback = function() setclipboard("m1ke#3815") game:GetService("StarterGui"):SetCore("SendNotification",{
+    Text = "Xerxes's YouTube (click to copy)",
+    Callback = function() setclipboard("https://www.youtube.com/channel/UC6_4xGRRwozM0aDzdGtFYEg") game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Ohio",
-	Text = "Copied m1ke's discord!",
-}) end,
-})
-
-credits.Button({
-    Text = "m1kecorp on top (click for discord!)",
-    Callback = function() setclipboard("https://discord.gg/y7H2qGmNKd") game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Ohio",
-	Text = "Copied m1kecorp offical discord!",
-}) end,
-})
-
-credits.Button({
-    Text = "this game straight ass lmfao",
-    Callback = function() setclipboard("m1ke#3815") game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Ohio",
-	Text = "Copied m1ke's discord!",
-}) end,
-})
-
-credits.Button({
-    Text = "too ez made this in like 300 lines",
-    Callback = function() setclipboard("m1ke#3815") game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Ohio",
-	Text = "Copied m1ke's discord!",
-}) end,
-})
-
-credits.Button({
-    Text = "lofi is pro",
-    Callback = function() setclipboard("m1ke#3815") game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Ohio",
-	Text = "Copied m1ke's discord!",
+	Text = "Copied Xerxes's YouTube channel!",
 }) end,
 })
 
