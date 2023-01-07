@@ -32,10 +32,6 @@ local main = X.New({
 	Title = "MAIN"
 })
 
-local risky = X.New({
-	Title = "RISKY"
-})
-
 local credits = X.New({
 	Title = "CREDITS"
 })
@@ -107,58 +103,6 @@ local shopLowButton = main.Button({
             ServerHopLowFunc()
         end)
     end,
-})
-
-local hugehead = risky.Toggle({
-    Text = "Huge Head Hitbox",
-    Callback = function(v)
-        HugeHead = v
-        
-        if HugeHead then
-            pcall(function()
-                HugeHeadFunc()
-            end)
-        end
-    end
-})
-
-local bighead = risky.Toggle({
-    Text = "Big Head Hitbox",
-    Callback = function(v)
-        BigHead = v
-        
-        if BigHead then
-            pcall(function()
-                BigHeadFunc()
-            end)
-        end
-    end
-})
-
-local mediumhead = risky.Toggle({
-    Text = "Medium Head Hitbox",
-    Callback = function(v)
-        MediumHead = v
-        
-        if MediumHead then
-            pcall(function()
-                MediumHeadFunc()
-            end)
-        end
-    end
-})
-
-local smallhead = risky.Toggle({
-    Text = "Small Head Hitbox",
-    Callback = function(v)
-        SmallHead = v
-        
-        if SmallHead then
-            pcall(function()
-                SmallHeadFunc()
-            end)
-        end
-    end
 })
 
 function GetItems()
