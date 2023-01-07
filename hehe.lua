@@ -6,14 +6,6 @@ local AutoRobBank
 local AutoRobBankFunc
 local AutoRobATMFunc
 local ServerHopLowFunc
-local HugeHeadFunc
-local HugeHead
-local BigHeadFunc
-local BigHead
-local MediumHeadFunc
-local MediumHead
-local SmallHeadFunc
-local SmallHead
 local NoClipToggled
 local NoClipFunc
 
